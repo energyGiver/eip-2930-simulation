@@ -1,0 +1,51 @@
+# Node modules
+node_modules/
+
+# 환경 변수 파일
+.env
+
+# 로그 파일
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# 운영체제별 불필요 파일
+.DS_Store
+Thumbs.db
+
+# 빌드 결과물
+dist/
+build/
+out/
+
+# 임시 파일
+*.swp
+*.swo
+*.tmp
+
+# 테스트 커버리지
+coverage/
+
+# IDE/에디터 설정
+.vscode/
+.idea/
+*.code-workspace
+
+# 기타
+*.local
+*.log
+
+# MacOS
+.AppleDouble
+.LSOverride
+
+# Windows
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# 파라미터/시크릿 등 민감 정보
+.secret
